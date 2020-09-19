@@ -1,9 +1,9 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode')
-const { createComponent } = require('./commands/createComponent')
-const { createResolver } = require('./commands/createResolver')
-const { createModel } = require('./commands/createModel')
+const { createComponent } = require('./src/commands/createComponent')
+const { createResolver } = require('./src/commands/createResolver')
+const { createModel } = require('./src/commands/createModel')
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
