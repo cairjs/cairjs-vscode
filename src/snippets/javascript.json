@@ -1,0 +1,27 @@
+{
+    "Export default function":{
+        "description": "Export default function",
+        "prefix": "func",
+        "body": ["export default function ($1) {", "$2", "}"]
+    }, 
+    "Export default async function":{
+        "description": "Export default async function",
+        "prefix": ["afunc","async-func"],
+        "body": ["export default async function {", "$2", "}"]
+    },
+    "Create try catch block":{
+        "description": "Create try catch block",
+        "prefix": "try",
+        "body": ["try {", "$1", "} catch (error) {", "console.log('Error:', error)", "}"]
+    },
+    "Export default":{
+        "description": "Create try catch block",
+        "prefix": ["exp-default", "expdefault"],
+        "body": ["export default {", "$1", "}"]
+    },
+    "Export const function":{
+        "description": "Export const function",
+        "prefix": ["exp-const", "expconst"],
+        "body": ["export const $1 = function ($2) {", "$3", "}"]
+    }
+}

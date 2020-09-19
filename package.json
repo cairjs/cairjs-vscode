@@ -53,7 +53,13 @@
 					"group": "cairJs@3"
 				}
 			]
-		}
+		},
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./src/snippets/javascript.json"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
