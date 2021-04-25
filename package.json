@@ -38,6 +38,12 @@
 		"menus": {
 			"explorer/context": [
 				{
+					"submenu": "cairjs",
+					"group": "navigation"
+				}
+			],
+			"cairjs": [
+				{
 					"command": "cairjs.createComponent",
 					"enablement": "editorHasSelection",
 					"group": "cairJs@1"
@@ -54,6 +60,12 @@
 				}
 			]
 		},
+		"submenus": [
+			{
+				"id":"cairjs",
+				"label": "CairJs"
+			}
+		],
 		"snippets": [
 			{
 				"language": "javascript",
